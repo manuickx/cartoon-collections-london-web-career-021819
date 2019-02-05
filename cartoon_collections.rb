@@ -15,7 +15,9 @@ end
 end
 
 def find_the_cheese(array)
-  array.find do |food| food == "cheddar"
+  cheese = ["cheddar", "gouda"]
+  array.find do |food|
+    chese.include(food)
 end
 end
   
